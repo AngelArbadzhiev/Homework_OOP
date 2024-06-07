@@ -1,0 +1,14 @@
+/home/angel/RiderProjects/Homework/Homework/bin/Debug/net8.0/Homework
+/home/angel/RiderProjects/Homework/Homework/bin/Debug/net8.0/Homework.deps.json
+/home/angel/RiderProjects/Homework/Homework/bin/Debug/net8.0/Homework.runtimeconfig.json
+/home/angel/RiderProjects/Homework/Homework/bin/Debug/net8.0/Homework.dll
+/home/angel/RiderProjects/Homework/Homework/bin/Debug/net8.0/Homework.pdb
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.GeneratedMSBuildEditorConfig.editorconfig
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.AssemblyInfoInputs.cache
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.AssemblyInfo.cs
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.csproj.CoreCompileInputs.cache
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.dll
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/refint/Homework.dll
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.pdb
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/Homework.genruntimeconfig.cache
+/home/angel/RiderProjects/Homework/Homework/obj/Debug/net8.0/ref/Homework.dll
