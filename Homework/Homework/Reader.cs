@@ -1,11 +1,14 @@
+namespace Homework;
+
 public class Reader
 {
     private string Name { get; set; }
     private List<Book> BorrowedBooks { get; set; }
+    
     public Reader(string name, List<Book> borrowedBooks)
     {
-        Name = name;
-        BorrowedBooks = borrowedBooks;
+        this.Name = name;
+        this.BorrowedBooks = borrowedBooks;
     }
 
     public void BorrowBook(Book book, Library library)

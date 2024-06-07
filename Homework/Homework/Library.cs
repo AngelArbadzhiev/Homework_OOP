@@ -1,16 +1,19 @@
+using Homework;
+
 public class Library
 {
-    public Library(string name, List<Book> books, List<Reader> readers)
+    public Library(string name, List<Book> books, List<Reader> readers, float rating)
     {
-        Name = name;
-        Books = books;
-        Readers = readers;
+        this.Name = name;
+        this.Books = books;
+        this.Readers = readers;
+        this.Rating = rating;
     }
 
     private string Name { get; set; }
     private List<Book> Books { get; set; }
     public List<Reader> Readers { get; set; }
-
+    private float Rating { get; set; }
     public void AddBook(Book book)
     {
         Books.Add(book);
@@ -29,8 +32,8 @@ public class Library
 
     public override string ToString()
     {
-        var booksList = string.Join("\n", Books);
-        var readersList = string.Join("\n", Readers);
-        return $"Library name: {Name}\nBooks:\n{booksList}\nReaders:\n{readersList}";
+        string booksList = string.Join("\n", Books);
+        string readersList = string.Join("\n", Readers);
+        return $"Library name: {Name}\nBooks:\n{booksList}\nReaders:\n{readersList}\nRating:{Rating}";
     }
 }

@@ -4,13 +4,15 @@ public class Program
 {
     public static void Main(string[] args)
     {   
-        var book1 = new Book("1984", "George Orwell", 1949, 123456789);
-        var book2 = new Book("To Kill a Mockingbird", "Harper Lee", 1960, 987654321);
-        var book3 = new Book("Brave New World", "Aldous Huxley", 1932, 1122334455);
-        var book4 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 2233445566);
-        var book5 = new Book("Moby Dick", "Herman Melville", 1851, 3344556677);
-        var initialReaders = new List<Reader>();
-        var library = new Library("City Library", [book1, book2, book3, book4, book5], initialReaders);
+        Book book1 = new Book("1984", "George Orwell", 1949, 123456789, 328);
+        Book book2 = new Book("To Kill a Mockingbird", "Harper Lee", 1960, 987654321, 281);
+        Book book3 = new Book("Brave New World", "Aldous Huxley", 1932, 1122334455, 311);
+        Book book4 = new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 2233445566, 191);
+        Book book5 = new Book("Moby Dick", "Herman Melville", 1851, 3344556677, 635);
+        List<Reader> initialReaders = new List<Reader>();
+        Random rnd = new Random();
+        float rating = rnd.Next(0, 101) < 85 ? rnd.Next(4, 6) : rnd.Next(0, 4);
+        Library library = new Library("City Library", [book1, book2, book3, book4, book5], initialReaders, rating);
         Console.WriteLine("Initial library state:");
         Console.WriteLine(library.ToString());
         library.RegisterReader("John Doe", [book1]);
