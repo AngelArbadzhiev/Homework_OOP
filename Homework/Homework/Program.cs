@@ -21,10 +21,8 @@ public class Program
         var reader2 = library.Readers[1];
         Console.WriteLine("\nLibrary state after registering readers:");
         Console.WriteLine(library.ToString());
-        Console.WriteLine("\nReader 1's state:");
-        Console.WriteLine(reader1.ToString());
-        Console.WriteLine("\nReader 2's state:");
-        Console.WriteLine(reader2.ToString());
+        Console.WriteLine($"\nReader 1's state: {reader1.ToString()}");
+        Console.WriteLine($"\nReader 2's state: {reader2.ToString()}");
         reader1.BorrowBook(book4, library);
         Console.WriteLine("\nLibrary state after reader 1 borrows another book:");
         Console.WriteLine(library.ToString());
